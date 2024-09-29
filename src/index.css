@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: black;
+  min-width: 260px;
+}
+
+.reveal {
+  font-family: "Poppins", sans-serif;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.line {
+  width: 10px;
+  height: 3px;
+  background: linear-gradient(to right, #40267b, pink);
+  margin-bottom: 10px;
+  animation: grow 2s ease-in-out forwards;
+}
+
+.loading-text {
+  font-weight: bold;
+  opacity: 0;
+  color: white;
+  animation: fadeIn 2s ease-in-out forwards 1s;
+}
+
+@keyframes grow {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
