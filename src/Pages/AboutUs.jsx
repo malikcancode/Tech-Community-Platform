@@ -6,37 +6,37 @@ const teamMembers = [
   {
     job: "CEO",
     name: "Eliza",
-    image: "/public/Adele-1.webp",
+    image: "/Adele-1.webp",
   },
   {
     job: "CTO",
     name: "Eric",
-    image: "/public/Eric-1.webp",
+    image: "/Eric-1.webp",
   },
   {
     job: "Lead Developer",
     name: "Jessica",
-    image: "/public/Jessica-1.webp",
+    image: "/Jessica-1.webp",
   },
   {
     job: "Project Manager",
     name: "Ryan",
-    image: "/public/Ryan-1.webp",
+    image: "/Ryan-1.webp",
   },
   {
     job: "UI/UX Designer",
     name: "Kristina",
-    image: "/public/Kristina-1.webp",
+    image: "/Kristina-1.webp",
   },
   {
     job: "Marketing Head",
     name: "Michael",
-    image: "/public/Component-2.webp",
+    image: "/Component-2.webp",
   },
   {
     job: "QA Engineer",
     name: "Nicole",
-    image: "/public/Nicole-1.webp",
+    image: "/Nicole-1.webp",
   },
 ];
 
